@@ -1,0 +1,22 @@
+.header {
+    background-image: url('../img/desktop/header-background.jpg');
+    background-repeat: no-repeat;
+    background-position-y: right;
+    background-size: cover;
+    color: #F7F7F7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+    @import "./navbar";
+
+    .h1 {
+        margin-bottom: 34px;
+    }
+
+    .p {
+        font-size: 21px;
+    }
+
+    .button {
+        margin-top: 24px;
+        margin-bottom: 340px;
+    }
+}

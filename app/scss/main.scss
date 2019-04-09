@@ -48,6 +48,44 @@ b, strong {
 	font-weight: bold;
 }
 
+.h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.h2 {
+	font-size: 36px;
+}
+
+.p {
+	font-size: 24px;
+}
+
+.button {
+	width: 18.125em;
+	height: 4.3164em;
+	border: 1px solid transparent;
+	border-radius: .35em;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F7F7F7;
+	transition: all .15s ease-in-out;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.21);
+	&-red {
+		background-color: #E52B2B;
+		border-color: #E52B2B;
+
+		&:hover {
+		background-color: rgb(179, 4, 4);
+		border-color: rgb(179, 4, 4);
+		}
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+}
 
 
+@import "_header.scss";
 @import "media"; // Always at the end
