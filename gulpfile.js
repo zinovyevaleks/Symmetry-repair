@@ -40,6 +40,7 @@ gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/jquery.maskedinput.min.js',
+		'app/libs/juqery_flip/jquery.flip.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

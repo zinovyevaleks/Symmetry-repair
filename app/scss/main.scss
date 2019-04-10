@@ -15,10 +15,11 @@ body {
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
-	line-height: 1.65;
+	line-height: 1;
 	font-family: $default-font;
 	overflow-x: hidden;
 	color: $text;
+	background-color: #F2F6F7;
 	input, textarea {
 		border: #666 1px solid;
 		outline: none;
@@ -91,4 +92,5 @@ b, strong {
 @import "_objects-map";
 @import "_objects-logo";
 @import "_cost";
+@import "_services";
 @import "media"; // Always at the end

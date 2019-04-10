@@ -1,0 +1,39 @@
+.services {
+    &-header {
+        background-color: #F8C63E;
+        padding-top: 25px;
+        overflow: auto;
+        margin-bottom: 94px;
+
+        .h2 {
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .decor-line {
+            height: 6px;
+            background-color: $red;
+            width: 76.40983606557377%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 26px;
+        }
+    }
+
+    .srv-icon {
+        margin-bottom: 16px;
+    }
+
+    .flipcard {
+        .front {
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+        }
+        .back {
+            height: 445px!important;
+            padding: 0 65px;
+            background-color: #FFFFFF; 
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+        }
+    }
+    
+}
