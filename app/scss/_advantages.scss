@@ -1,0 +1,17 @@
+.advantages {
+    background-image: url('../img/desktop/advantages-bg.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 132px;
+
+    .section-header {
+        margin-bottom: 96px;
+    }
+
+    &-card {
+        margin-top: 72px;
+
+        .h2 {
+            margin-bottom: 24px;
+        }
+    }
+}
