@@ -87,10 +87,32 @@ b, strong {
 	}
 }
 
+.section-header {
+	background-color: #F8C63E;
+	padding-top: 25px;
+	overflow: auto;
+	margin-bottom: 94px;
+
+	.h2 {
+		position: relative;
+		margin-bottom: 12px;
+	}
+
+	.decor-line {
+		height: 6px;
+		background-color: $red;
+		width: 76.40983606557377%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 26px;
+	}
+}
+
 
 @import "_header.scss";
 @import "_objects-map";
 @import "_objects-logo";
 @import "_cost";
 @import "_services";
+@import "_examples";
 @import "media"; // Always at the end

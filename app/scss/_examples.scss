@@ -1,0 +1,34 @@
+.examples {
+
+
+    &-slide {
+        width: 100%;
+        height: 900px;
+        background-image: url('../img/desktop/examples_slide-1.jpg');
+        background-repeat: no-repeat;
+        margin-top: calc(-94px - 105px);
+    }
+
+    &-control {
+        width: 61.37566137566138%;
+        margin-top: -65px;
+        margin-left: 30px;
+
+        .control-button {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            border: none;
+            width: 25%;
+            height: 65px;
+            color: $white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+    }
+
+
+
+}
