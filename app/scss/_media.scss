@@ -5,7 +5,24 @@
 
 // ≥1200px
 @include media-breakpoint-down(lg) {
-	
+    .h2 {
+        font-size: 1.5em;
+    }
+    .p {
+        font-size: 1em;
+    }
+	.cost {
+        .h2 {
+            margin-top: 68px;
+        }
+
+        .p:before {
+            top: 15px;
+            left: -33px;
+            width: 6px;
+            height: 135px;
+        }
+    }
 }
 
 // ≥992px

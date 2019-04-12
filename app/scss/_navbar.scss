@@ -9,11 +9,19 @@
 
         .nav-link {
             color: #F7F7F7;
-            font-size: 21px;
+            font-size: 1.3125em;
             font-weight: bold;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
-            margin-right: 57px;
+            margin-right: 3.46875vw;
             transition: $animate;
+        }
+
+        .nav-item:last-child {
+
+            .nav-link {
+                margin-right: 0;
+            }
+                
         }
     }
 }
