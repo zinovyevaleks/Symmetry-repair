@@ -27,12 +27,12 @@
 </head>
 
 <body>
-	<header class="header">
+	<header class="header" id="header">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-10 offset-md-1">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand anchor_link" href="#header">
 							<img src="./img/logo/logo_main.png" alt="Логотип Симметрия"
 								class="navbar-logo img-responsive img-width">
 						</a>
@@ -45,16 +45,16 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto d-flex justify-content-between">
 								<li class="nav-item">
-									<a class="nav-link" href="#">Стоймость</a>
+									<a class="nav-link anchor_link" href="#cost">Стоймость</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Услуги</a>
+									<a class="nav-link anchor_link" href="#services">Услуги</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Портфолио</a>
+									<a class="nav-link anchor_link" href="#portfolio">Портфолио</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">+7 (383) 375-40-35</a>
+									<a class="nav-link" href="tel:+73833754035">+7 (383) 375-40-35</a>
 								</li>
 							</ul>
 						</div>
@@ -102,7 +102,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="cost">
+	<section class="cost" id="cost">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
 				<div class="col-md-5">
@@ -119,7 +119,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="services">
+	<section class="services" id="services">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 offset-md-1">
@@ -207,20 +207,19 @@
 			</div>
 			<div class="row">
 				<div class="examples-slide">
-
 				</div>
 			</div>
 			<div class="row">
 				<div class="examples-control d-flex">
-					<a class="control-button button-red" href="#">Гостинная</a>
-					<a class="control-button button-red" href="#">Детская</a>
-					<a class="control-button button-red" href="#">Кухня</a>
-					<a class="control-button button-red" href="#">Ванная</a>
+					<div class="control-button button-red" id="lounge">Гостинная</div>
+					<div class="control-button button-red" id="children">Детская</div>
+					<div class="control-button button-red" id="kitchen">Кухня</div>
+					<div class="control-button button-red" id="bathroom">Ванная</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="portfolio">
+	<section class="portfolio" id="portfolio">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
