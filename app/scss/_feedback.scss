@@ -1,0 +1,35 @@
+.feedback {
+    .section-header {
+        padding-top: 42px;
+        padding-left: 20.38216560509554%;
+        padding-right: 8.808917197452229%;
+        padding-bottom: 54px;
+        margin-bottom: 0;
+
+        .h2 {
+            font-size: 28px;
+            text-transform: uppercase;
+            margin-bottom: 35px;
+        }
+    }
+
+    &-form {
+        width: 57.32484076433121%;
+        margin-top: 42px;
+        margin-left: auto;
+        margin-right: auto;
+        .form-control {
+            width: 100%;
+            margin-bottom: 26px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 22px;
+            border-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .button {
+            margin-top: 70px;
+            margin-bottom: 0;
+        }
+    }
+}
