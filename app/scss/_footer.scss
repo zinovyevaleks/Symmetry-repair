@@ -1,0 +1,33 @@
+.footer {
+    background-image: url('../img/desktop/footer-bg.jpg');
+    background-repeat: no-repeat;
+    
+    &-contacts {
+        background-color: $white;
+        margin-top: 229px;
+        padding-top: 43px;
+        padding-left: 22.67515923566879%;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.21);
+
+        .h3 {
+            margin-bottom: 22px;
+            line-height: 1.2;
+        }
+
+        .p,
+        a {
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+
+        a {
+            font-size: 24px;
+            color: $text;
+        }
+
+        .button {
+            margin-top: 55px;
+            margin-bottom: 37px;
+        }
+    }
+}

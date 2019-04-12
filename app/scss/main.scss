@@ -58,6 +58,10 @@ b, strong {
 	font-size: 36px;
 }
 
+.h3 {
+	font-size: 28px;
+}
+
 .p {
 	font-size: 24px;
 }
@@ -119,5 +123,6 @@ b, strong {
 @import "_advantages";
 @import "_workflow";
 @import "_discount";
-@import "_feedback";	
+@import "_feedback";
+@import "_footer";	
 @import "media"; // Always at the end
