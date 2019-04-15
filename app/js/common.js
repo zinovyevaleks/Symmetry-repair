@@ -38,5 +38,26 @@ $(function () {
 		});
 		return false;
 		});		
+
+		// отправка письма ajax
+
+		$("form").submit(function () {
+			var th = $(this);
+			$.ajax({
+				type: "POST",
+				url: "mail.php", //Change
+				data: th.serialize()
+			}).done(function () {
+				alert("Спасибо, ваша заявка принята!");
+				setTimeout(function () {
+					// Done Functions
+					dataLayer.push({
+						'event': 'symmetryForm'
+					});
+					th.trigger("reset");
+				}, 1000);
+			});
+			return false;
+		});
 		
 });

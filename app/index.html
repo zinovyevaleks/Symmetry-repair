@@ -2,6 +2,24 @@
 <html lang="ru">
 
 <head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-W2SKKS4');
+	</script>
+	<!-- End Google Tag Manager -->
 
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
@@ -40,6 +58,11 @@
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2SKKS4" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<header class="header" id="header">
 		<div class="container-fluid">
 			<div class="row">
@@ -226,11 +249,11 @@
 			</div>
 		</div>
 	</section>
-	<section class="portfolio" id="portfolio">
+	<section class="portfolio">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="portfolio-card portfolio-card-first">
+					<div class="portfolio-card portfolio-card-first" id="portfolio">
 						<h2 class="h2 text-center">Портфолио</h2>
 						<p class="p text-center">Более чем за 5 лет работы мы сделали уютными около 300 квартир, оцените
 							результаты.</p>
@@ -276,7 +299,8 @@
 					<div class="portfolio-card portfolio-card-last d-flex flex-column align-items-center">
 						<h2 class="h2 text-center">Начнем ремонт?</h2>
 						<p class="p text-center">Оставьте заявку и мы с вами свяжемся, чтобы обчудить ваш проект</p>
-						<button class="button button-red" data-toggle="modal" data-target="#formModal">Оставить
+						<button class="button button-red" id="portfolioModal" data-toggle="modal"
+							data-target="#formModal">Оставить
 							заявку</button>
 					</div>
 				</div>
@@ -411,7 +435,7 @@
 						<h2 class="h2">Мы знаем, у вас есть вопросы</h2>
 						<p class="p2">Напишите имя и телефон. Наш специалист перезвонит вам через 10 минут</p>
 					</div>
-					<form class="feedback-form">
+					<form class="feedback-form" id="feedbackForm">
 						<input type="hidden" name="project_name" value="Site Name">
 						<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.ru">
 						<input type="hidden" name="form_subject" value="Form Subject">
@@ -436,7 +460,8 @@
 					<p class="p">ул. Бориса Богаткова 99, офис 210</p>
 					<a href="tel:+73833754035">+7 (383) 375-40-35</a>
 					<a href="mailto:simmetria54@gmail.com">simmetria54@gmail.com</a>
-					<button class="button button-red" data-toggle="modal" data-target="#formModal">Оставить
+					<button class="button button-red" id="footerModal" data-toggle="modal"
+						data-target="#formModal">Оставить
 						заявку</button>
 				</div>
 			</div>
