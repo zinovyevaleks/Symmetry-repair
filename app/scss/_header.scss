@@ -13,10 +13,18 @@
 
     .p {
         font-size: 21px;
+        font-weight: bold;
     }
 
     .button {
+       display: flex;
+       justify-content: center;
+       align-items: center;
         margin-top: 24px;
         margin-bottom: 340px;
+
+        &:hover {
+            color: $white;
+        }
     }
 }
