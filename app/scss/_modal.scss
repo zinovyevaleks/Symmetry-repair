@@ -1,0 +1,24 @@
+.modal {
+
+    &-form {
+        width: 57.32484076433121%;
+        margin-top: 22px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .form-control {
+            width: 100%;
+            margin-bottom: 26px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 22px;
+            border-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .button {
+            width: 100%;
+            height: 3.3164em;
+        }
+    }
+    
+}

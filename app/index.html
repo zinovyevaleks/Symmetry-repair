@@ -263,7 +263,8 @@
 					<div class="portfolio-card portfolio-card-last d-flex flex-column align-items-center">
 						<h2 class="h2 text-center">Начнем ремонт?</h2>
 						<p class="p text-center">Оставьте заявку и мы с вами свяжемся, чтобы обчудить ваш проект</p>
-						<button class="button button-red">Оставить заявку</button>
+						<button class="button button-red" data-toggle="modal" data-target="#formModal">Оставить
+							заявку</button>
 					</div>
 				</div>
 			</div>
@@ -422,11 +423,41 @@
 					<p class="p">ул. Бориса Богаткова 99, офис 210</p>
 					<a href="tel:+73833754035">+7 (383) 375-40-35</a>
 					<a href="mailto:simmetria54@gmail.com">simmetria54@gmail.com</a>
-					<button class="button button-red">Оставить заявку</button>
+					<button class="button button-red" data-toggle="modal" data-target="#formModal">Оставить
+						заявку</button>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Введите свои данные</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="modal-form">
+						<input type="hidden" name="project_name" value="Site Name">
+						<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.ru">
+						<input type="hidden" name="form_subject" value="Form Subject">
+
+						<input class="form-control" type="text" name="Name" placeholder="Ваше имя..." required>
+						<input class="form-control" type="text" name="Phone" placeholder="Ваш телефон..." required>
+						<button class="button button-red">Получить обратную связь</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<script src="js/scripts.min.js"></script>
 

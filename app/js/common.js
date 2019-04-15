@@ -37,5 +37,6 @@ $(function () {
 		  scrollTop: $(_href).offset().top
 		});
 		return false;
-	  });
+		});		
+		
 });
