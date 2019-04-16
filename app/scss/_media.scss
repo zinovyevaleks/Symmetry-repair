@@ -63,7 +63,47 @@
 
 // ≥768px
 @include media-breakpoint-down(sm) {
-    .navbar-nav
+    .header {
+        .navbar-nav {
+            .nav-item {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                text-align: right;
+    
+                &:last-child .nav-link {
+                    margin-right: 3.46875vw;
+                }
+            }
+        }
+    }
+
+    .objects-logo {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .cost .p:before {
+        top: -5px;
+    }
+
+    .examples {
+        &-control {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
+    .footer {
+        &-contacts {
+            a {
+                font-size: 18px;
+            }
+
+            .button {
+                max-width: 12.125em;
+            }
+        }
+    }
 }
 
 // ≥576px
