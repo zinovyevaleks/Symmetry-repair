@@ -48,12 +48,13 @@ $(function () {
 				url: "mail.php", //Change
 				data: th.serialize()
 			}).done(function () {
+				dataLayer.push({
+					'event': 'symmetryForm'
+				});
 				alert("Спасибо, ваша заявка принята!");
 				setTimeout(function () {
 					// Done Functions
-					dataLayer.push({
-						'event': 'symmetryForm'
-					});
+					
 					th.trigger("reset");
 				}, 1000);
 			});

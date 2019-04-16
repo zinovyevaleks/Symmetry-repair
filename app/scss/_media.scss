@@ -108,7 +108,56 @@
 
 // ≥576px
 @include media-breakpoint-down(xs) {
+    .h1 {
+        font-size: 28px;
+    }
 
+    .header {
+        .navbar {
+            .img-responsive.img-width {
+                width: 215px;
+            }
+        }
+    }
+
+    .cost .slide {
+        margin-top: 67px;
+        margin-bottom: 69px;
+    }
+
+    .services {
+        padding-bottom: 50px;
+    }
+
+    .examples {
+        &-slide {
+            margin-top: calc(-94px - 101px);
+        }
+
+        &-control {
+            .control-button {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .portfolio {
+        padding-top: 70px; 
+    }
+
+    .workflow {
+        padding-bottom: 0px;
+    }
+    .feedback {
+        &-form {
+            width: 100%;
+        }
+    }
+
+    .footer {
+        background-position-x: -900px;
+        background-position-y: -170px;
+    }
 }
 
 
