@@ -41,12 +41,29 @@
 
 // ≥992px
 @include media-breakpoint-down(md) {
+    .examples {
+        .section-header .h2 {
+            font-size: 1rem;
+        }
+    }
 
+    .examples-slide {
+        margin-top: calc(-94px - 85px);
+    }
+
+    .advantages .section-header {
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        background-position-x: center;
+
+    }
 }
 
 // ≥768px
 @include media-breakpoint-down(sm) {
-
+    .navbar-nav
 }
 
 // ≥576px
