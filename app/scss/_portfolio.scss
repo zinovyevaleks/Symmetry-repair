@@ -9,41 +9,48 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 
         &-first {
+            max-height: 440px;
             border-style: solid;
             border-width: 6px;
             border-color: #E52B2B;
             box-shadow: none;
+            padding: 20px;
 
             .h2 {
-                margin-top: 137px;
+                // margin-top: 137px;
                 margin-bottom: 16px;
                 line-height: 1.35;
             }
 
             .p {
-                margin-bottom: 137px;
+                // margin-bottom: 137px;
                 line-height: 1.35;
             }
         }
 
         &-last {
+            max-height: 440px;
             border-style: solid;
             border-width: 6px;
             border-color: #F8C63E;
             box-shadow: none;
+            padding: 20px;
 
             .h2 {
-                margin-top: 98px;
+                // margin-top: 98px;
                 margin-bottom: 16px;
+                line-height: 1.35;
             }
 
             .p {
-                margin-bottom: 46px;
+                // margin-bottom: 46px;
+                line-height: 1.35;
             }
         }
 
         .button {
-            margin-bottom: 89px;
+            // margin-bottom: 89px;
+            max-width: 18.125em;
         }
 
         &-link {

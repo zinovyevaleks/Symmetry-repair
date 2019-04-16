@@ -30,7 +30,13 @@
         .button {
             width: 100%;
             margin-top: 70px;
-            margin-bottom: 0;
+            margin-bottom: 63px;
         }
+    }
+
+    .decor-column {
+        background-image: url('../img/desktop/feedback-photo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
