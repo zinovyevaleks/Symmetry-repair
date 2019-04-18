@@ -9,11 +9,11 @@ $(function () {
 	//всплывание по наведению
 	$('.portfolio-card-link').hide();
 
-	// $('.portfolio-card').hover(function () {
-	// 	$(this).find('.portfolio-card-link').slideDown();
-	// }, function () {
-	// 	$(this).find('.portfolio-card-link').slideUp();
-	// });
+	$('.portfolio-card').hover(function () {
+		$(this).find('.portfolio-card-link').slideDown();
+	}, function () {
+		$(this).find('.portfolio-card-link').slideUp();
+	});
 
 
 	//переключение примеров

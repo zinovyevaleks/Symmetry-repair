@@ -3,8 +3,6 @@
 
 /*==========  Desktop First  ==========*/
 
-// @media () {}
-
 // ≥1200px
 @include media-breakpoint-down(lg) {
     .h2 {
@@ -13,18 +11,6 @@
     .p {
         font-size: 1em;
     }
-
-    .header .navbar-nav .nav-link {
-        font-size: 0.9rem;
-    }
-
-    .objects-map  {
-        background-position: center;
-        .h2 {
-            font-size: 1rem;
-        }
-    }
-
 	.cost {
         .h2 {
             margin-top: 68px;
