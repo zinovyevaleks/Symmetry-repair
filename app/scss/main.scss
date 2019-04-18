@@ -64,7 +64,7 @@ b, strong {
 }
 
 .p {
-	font-size: 21px;
+	font-size: 24px;
 	line-height: 27px;
 }
 
@@ -112,6 +112,12 @@ b, strong {
 		margin-right: auto;
 		margin-bottom: 26px;
 	}
+}
+
+.container-fluid {
+	max-width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @import "_header.scss";
