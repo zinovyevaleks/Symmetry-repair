@@ -9,11 +9,31 @@ $(function () {
 	//всплывание по наведению
 	$('.portfolio-card-link').hide();
 
-	// $('.portfolio-card').hover(function () {
-	// 	$(this).find('.portfolio-card-link').slideDown();
-	// }, function () {
-	// 	$(this).find('.portfolio-card-link').slideUp();
-	// });
+	$('.portfolio-card').hover(function () {
+		$(this).find('.portfolio-card-link').slideDown(250);
+	}, function () {
+		$(this).find('.portfolio-card-link').slideUp(250);
+	});
+
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		lazyLoad: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:2
+			}
+		},
+		autoHeight:true
+		// animateOut: 'fadeOut'
+	});
 
 
 	//переключение примеров

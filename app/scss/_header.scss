@@ -11,9 +11,29 @@
         margin-bottom: 34px;
     }
 
+    &_list {
+        padding-left: 0;
+        margin-bottom: 60px;
+    }
+
+    &_list_item {
+        font-weight: bold;
+font-size: 21px;
+line-height: 27px;
+text-transform: uppercase;
+
+color: #F7F7F7;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
+    }
+
     .p {
         font-size: 21px;
         font-weight: bold;
+        margin-top: 28px;
+        margin-bottom: 94px;
     }
 
     .button {
@@ -22,7 +42,7 @@
        justify-content: center;
        align-items: center;
         margin-top: 24px;
-        margin-bottom: 340px;
+        // margin-bottom: 340px;
 
         &:hover {
             color: $white;

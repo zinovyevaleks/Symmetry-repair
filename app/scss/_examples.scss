@@ -1,35 +1,59 @@
 .examples {
+    padding-bottom: 160px;
+    background-image: url('../img/desktop/advantages-bg.jpg');
+    .section-header {
+        margin-bottom: 0;
+    }
 
+    // &-slide {
+    //     width: 100%;
+    //     height: 900px;
+    //     background-image: url('../img/desktop/examples_slide-1.jpg');
+    //     background-repeat: no-repeat;
+    //     margin-top: calc(-94px - 105px);
+    // }
 
-    &-slide {
+    // &-control {
+    //     width: 61.37566137566138%;
+    //     margin-top: -65px;
+    //     margin-left: 30px;
+
+    //     .control-button {
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: center;    
+    //         border: none;
+    //         width: 25%;
+    //         height: 65px;
+    //         color: $white;
+    //         font-size: 18px;
+    //         font-weight: bold;
+    //         transition: all .15s ease-in-out;
+    //         cursor: pointer;
+    //     }
+
+    // }
+
+    &_vids {
+        margin-top: 65px;
+    }
+
+    &_vid {
+        position: relative;
         width: 100%;
-        height: 900px;
-        background-image: url('../img/desktop/examples_slide-1.jpg');
-        background-repeat: no-repeat;
-        margin-top: calc(-94px - 105px);
-    }
+        height: 0;
+        padding-bottom: 56.25%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: rgba(46, 14, 14, 0.37);
 
-    &-control {
-        width: 61.37566137566138%;
-        margin-top: -65px;
-        margin-left: 30px;
-
-        .control-button {
-            display: flex;
-            justify-content: center;
-            align-items: center;    
-            border: none;
-            width: 25%;
-            height: 65px;
-            color: $white;
-            font-size: 18px;
-            font-weight: bold;
-            transition: all .15s ease-in-out;
-            cursor: pointer;
+        &_embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
         }
-
     }
-
-
 
 }

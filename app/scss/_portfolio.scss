@@ -1,5 +1,5 @@
 .portfolio {
-    padding-top: 147px;
+    // padding-top: 147px;
     padding-bottom: 147px;
 
     &-card {
@@ -9,7 +9,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 
         &-first {
-            max-height: 440px;
+            max-height: 450px;
             border-style: solid;
             border-width: 6px;
             border-color: #E52B2B;
@@ -29,7 +29,7 @@
         }
 
         &-last {
-            max-height: 440px;
+            max-height: 450px;
             border-style: solid;
             border-width: 6px;
             border-color: #F8C63E;
@@ -53,6 +53,22 @@
             max-width: 18.125em;
         }
 
+        &-description {
+            width: 100%;
+            position: absolute;
+            top: 40%;
+            bottom: 0;
+            color: #F7F7F7;
+            font-size: 1.5rem;
+            padding-left: 32px;
+
+            background-image: linear-gradient(to top, #282828, rgba(43, 43, 43, 0.027));
+
+            .p {
+                line-height: 1.2;
+            }
+        }
+
         &-link {
             position: absolute;
             bottom: 0;
@@ -62,13 +78,15 @@
             padding-left: 5.777777777777778%;
             padding-top: 5.555555555555556%;
             padding-bottom: 5.555555555555556%;
-            background-color: #F8C63E;   
+            background-color: #F8C63E;
             width: 100%;
+            text-align: left;
             text-decoration: underline;
-            
+            border: #F8C63E;
+
 
             &:hover {
-                color: $text;   
+                color: $text;
             }
         }
     }
