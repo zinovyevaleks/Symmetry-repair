@@ -37,18 +37,18 @@ $(function () {
 
 
 	//переключение примеров
-	$("#lounge").click(function () {
-		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-1.jpg)');
-	});
-	$("#children").click(function () { 
-		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-2.jpg)');
-	});
-	$("#kitchen").click(function () { 
-		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-3.jpg)');
-	});
-	$("#bathroom").click(function () { 
-		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-4.jpg)');
-	});
+	// $("#lounge").click(function () {
+	// 	$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-1.jpg)');
+	// });
+	// $("#children").click(function () { 
+	// 	$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-2.jpg)');
+	// });
+	// $("#kitchen").click(function () { 
+	// 	$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-3.jpg)');
+	// });
+	// $("#bathroom").click(function () { 
+	// 	$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-4.jpg)');
+	// });
 
 	  //Плавная прокрутка до якоря
 	  $(".anchor_link").click(function() {
