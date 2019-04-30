@@ -2,19 +2,20 @@
     background-image: url('../img/desktop/advantages-bg.jpg');
     padding-bottom: 122px;
 
-    .h2 {
-        margin-bottom: 65px;
+    // .h2 {
+    //     margin-bottom: 65px;
+    // }
+
+    .section-header .decor-line {
+        width: 49.409836%;
     }
 
     .p {
         margin-top: 46px;
+        font-size: 23px;    
     }
+
     .flamp {
         margin-top: 90px;
     }
-
-    // .button {
-    //     display: block;
-    //     margin: 90px auto 0;
-    // }
 }
