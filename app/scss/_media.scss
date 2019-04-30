@@ -42,9 +42,11 @@
 // ≥992px
 @include media-breakpoint-down(md) {
     .examples {
-        .section-header .h2 {
-            font-size: 1rem;
-        }
+        
+    }
+
+    .section-header .h2 {
+        font-size: 1.2rem;
     }
 
     .examples-slide {
@@ -110,6 +112,7 @@
 @include media-breakpoint-down(xs) {
     .h1 {
         font-size: 28px;
+        line-height: 1.2;
     }
 
     .header {
