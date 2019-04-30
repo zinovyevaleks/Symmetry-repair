@@ -1,8 +1,47 @@
 .objects-logo {
-    padding-top: 107px;
-    padding-bottom: 139px;
+    &-card {
+        margin-top: 18px;
+        margin-bottom: 87px;
+        // padding: 30px;
+        text-align: center;
 
-    .h2 {
-        margin-bottom: 60px;
+        .h2 {
+            border: 5px solid $red;
+            padding-left: 22px;
+            padding-right: 22px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            line-height: 1.2;
+        }
+    }
+
+
+
+    .owl-stage {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-carousel-img {
+        max-width: 140px;
+        // max-height: 86px;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 50px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .owl-prev>img,
+    .owl-next>img {
+        width: 30px;
+        height: 40px;
+    }
+
+    .owl-theme .owl-nav [class*=owl-]:hover {
+        background: transparent;
+        color: #fff;
+        text-decoration: none;
     }
 }

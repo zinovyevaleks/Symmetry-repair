@@ -15,25 +15,52 @@ $(function () {
 		$(this).find('.portfolio-card-link').slideUp(250);
 	});
 
-	$('.owl-carousel').owlCarousel({
-		loop:true,
-		margin:10,
-		nav:true,
+	$('.portfolio-carousel').owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
 		lazyLoad: true,
-		responsive:{
-			0:{
-				items:1
+		responsive: {
+			0: {
+				items: 1
 			},
-			600:{
-				items:1
+			600: {
+				items: 1
 			},
-			1000:{
-				items:2
+			1000: {
+				items: 2
 			}
 		},
-		autoHeight:true
+		autoHeight: true
 		// animateOut: 'fadeOut'
 	});
+
+	$('.objects-logo-carousel').owlCarousel({
+		loop: true,
+		margin: 50,
+		stagePadding: 20,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true,
+		nav: true,
+		dots: false,
+		responsive: {
+			0: {
+				items: 2
+			},
+			600: {
+				items: 3
+			},
+			1000: {
+				items: 4
+			}
+		},
+		navText: [
+			'<img src="./img/icons/Button_slide_prew.svg">',
+			'<img src="./img/icons/Button_slide_next.svg">'
+		],
+		//   autoWidth:true,
+	})
 
 
 	//переключение примеров
@@ -50,35 +77,35 @@ $(function () {
 	// 	$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-4.jpg)');
 	// });
 
-	  //Плавная прокрутка до якоря
-	  $(".anchor_link").click(function() {
+	//Плавная прокрутка до якоря
+	$(".anchor_link").click(function () {
 		var _href = $(this).attr("href");
 		$("html, body").animate({
-		  scrollTop: $(_href).offset().top
+			scrollTop: $(_href).offset().top
 		});
 		return false;
-		});		
+	});
 
-		// отправка письма ajax
+	// отправка письма ajax
 
-		$("form").submit(function () {
-			var th = $(this);
-			$.ajax({
-				type: "POST",
-				url: "mail.php", //Change
-				data: th.serialize()
-			}).done(function () {
-				dataLayer.push({
-					'event': 'symmetryForm'
-				});
-				alert("Спасибо, ваша заявка принята!");
-				setTimeout(function () {
-					// Done Functions
-					
-					th.trigger("reset");
-				}, 1000);
+	$("form").submit(function () {
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function () {
+			dataLayer.push({
+				'event': 'symmetryForm'
 			});
-			return false;
+			alert("Спасибо, ваша заявка принята!");
+			setTimeout(function () {
+				// Done Functions
+
+				th.trigger("reset");
+			}, 1000);
 		});
-		
+		return false;
+	});
+
 });
