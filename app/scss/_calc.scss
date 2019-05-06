@@ -1,0 +1,113 @@
+.calc {
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img {
+        margin-left: 0;
+    }
+
+    &-item {
+        padding-left: 45px;
+        background-color: #F7F7F7;
+        padding-right: 36px;
+        box-shadow: -6px -2px 8px rgba(0, 0, 0, 0.21);
+        overflow: auto;
+
+        .h2 {
+            color: $red;
+            margin-top: 46px;
+            margin-bottom: 40px;
+        }
+    }
+
+    &-form {
+        margin-top: 26px;
+
+        .form-check-label {
+            width: 43%;
+            padding-left: 3em;
+            margin-bottom: 27px;
+            font-size: 1.5rem;
+            margin-right: 44px;
+        }
+
+        .form-check-input {
+            position: absolute;
+            visibility: hidden;
+        }
+
+        .form-check-box {
+            position: absolute;
+            margin-left: -3em;
+            width: 2rem;
+            height: 2rem;
+            background-image: url('../img/icons/checkbox.svg');
+        }
+
+        //checked checkbox
+        .form-check-input:checked+.form-check-box {
+            background-image: url('../img/icons/checkbox-checked.svg');
+        }
+
+        .form-group-inputs {
+            margin-top: 90px;
+        }
+
+        .form-input-icon {
+            margin-right: 29px;
+        }
+
+        .form-input {
+            display: inline-flex;
+            justify-content: space-around;
+            align-items: center;
+            background: #FFFFFF;
+            box-shadow: inset 2px 4px 8px rgba(40, 40, 40, 0.21);
+            border-color: #F2F6F7;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            margin-right: 29px;
+            width: 50%;
+            text-align: center;
+        }
+
+        .form-input-label {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 31px;
+            text-align: center;
+            margin-top: 32px;
+        }
+
+        .input-phone {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 57%;
+            margin-top: 48px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+
+            &::placeholder {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 128%;
+                color: rgba(40, 40, 40, 0.38);
+            }
+        }
+    }
+
+    &-button {
+        display: block;
+        max-width: 270px;
+        margin-top: 29px;
+        margin-left: auto;
+        margin-bottom: 50px;
+        margin-right: auto;
+    }
+}

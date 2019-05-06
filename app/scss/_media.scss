@@ -148,6 +148,23 @@
         padding-top: 70px; 
     }
 
+    .calc {
+        .calc-item {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &-form {
+            .form-check-label {
+                width: 100%;
+            }
+            .form-input-icon {
+                margin-right: 14px;
+            }
+            .input-phone {
+               width: 100%;
+            }
+        }
+    }
     .workflow {
         padding-bottom: 0px;
     }

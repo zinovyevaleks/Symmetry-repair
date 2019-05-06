@@ -27,7 +27,7 @@ body {
 			border-color: red;
 		}
 		&:required:valid {
-			border-color: green;
+			border-color: limegreen;
 		}
 	}
 }
@@ -120,6 +120,11 @@ b, strong {
 	margin-right: auto;
 }
 
+input:hover,
+.form-check-label {
+	cursor: pointer;
+}
+
 @import "_header.scss";
 @import "_objects-map";
 @import "_objects-logo";
@@ -133,4 +138,5 @@ b, strong {
 @import "_feedback";
 @import "_footer";
 @import "_modal";
+@import "_calc";
 @import "media"; // Always at the end
