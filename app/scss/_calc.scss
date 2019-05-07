@@ -1,4 +1,5 @@
 .calc {
+    background-image: url('../img/desktop/calc_img.jpg');
     .container-fluid {
         padding-left: 0;
         padding-right: 0;
@@ -14,6 +15,8 @@
         padding-right: 36px;
         box-shadow: -6px -2px 8px rgba(0, 0, 0, 0.21);
         overflow: auto;
+        width: 625px;
+        margin-left: auto;
 
         .h2 {
             color: $red;
@@ -70,7 +73,8 @@
             font-weight: bold;
             font-size: 24px;
             margin-right: 29px;
-            width: 50%;
+            width: 45%;
+            // width: 136px;
             text-align: center;
         }
 

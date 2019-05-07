@@ -7,6 +7,8 @@
         margin-top: 15px;
         margin-bottom: 15px;
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+       overflow: hidden;
+       
 
         &-first {
             max-height: 450px;
@@ -17,13 +19,11 @@
             padding: 20px;
 
             .h2 {
-                // margin-top: 137px;
                 margin-bottom: 16px;
                 line-height: 1.35;
             }
 
             .p {
-                // margin-bottom: 137px;
                 line-height: 1.35;
             }
         }
@@ -37,19 +37,16 @@
             padding: 20px;
 
             .h2 {
-                // margin-top: 98px;
                 margin-bottom: 16px;
                 line-height: 1.35;
             }
 
             .p {
-                // margin-bottom: 46px;
                 line-height: 1.35;
             }
         }
 
         .button {
-            // margin-bottom: 89px;
             max-width: 18.125em;
         }
 

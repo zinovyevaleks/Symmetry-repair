@@ -355,10 +355,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row d-none">
 				<div class="examples-slide"></div>
 			</div>
-			<div class="row">
+			<div class="row d-none">
 				<div class="examples-control d-flex">
 					<div class="control-button button-red" id="lounge">Гостинная</div>
 					<div class="control-button button-red" id="children">Детская</div>
@@ -370,19 +370,14 @@
 	</section>
 	<section class="calc">
 		<div class="container-fluid">
-			<div class="row no-gutters">
-				<div class="col-md-8">
-					<img src="./img/desktop/calc_img.jpg" alt="" class="img-responsive">
-				</div>
-				<div class="col-md-4">
-					<div class="calc-item">
+				<div class="calc-item">
 						<h2 class="h2 text-center">Экспресс расчёт стоимости ремонта</h2>
 						<p class="p"><b>Тип ремонта:</b></p>
 						<form action="" class="calc-form">
 							<!-- Hidden Required Fields -->
 							<input type="hidden" name="project_name" value="Simmetria-pro">
 							<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.ru">
-							<input type="hidden" name="form_subject" value="Form Subject">
+							<input type="hidden" name="form_subject" value="Калькулятор">
 							<!-- END Hidden Required Fields -->
 
 
@@ -413,13 +408,13 @@
 							</div>
 							<div class="form-group form-group-inputs d-sm-flex">
 								<div class="d-flex flex-wrap">
-									<img class="form-input-icon" src="./img/icons/Room_icon.svg" alt="">
+									<img class="form-input-icon img-responsive" src="./img/icons/Room_icon.svg" alt="">
 									<input class="form-input d-flex justify-content-center" type="number"
 										name="количество комнат" required>
 									<label class="form-input-label">Количество комнат</label>
 								</div>
 								<div class="d-flex flex-wrap">
-									<img class="form-input-icon" src="./img/icons/m2_icon.svg" alt="">
+									<img class="form-input-icon img-responsive" src="./img/icons/m2_icon.svg" alt="">
 									<input class="form-input" type="number" name="Площадь квартиры" required>
 									<label class="form-input-label">Площадь квартиры</label>
 								</div>
@@ -430,8 +425,14 @@
 							<button class="button button-red calc-button" type="submit">Получить расчёт</button>
 						</form>
 					</div>
+			<!-- <div class="row no-gutters">
+				<div class="col-md-8">
+					<img src="./img/desktop/calc_img.jpg" alt="" class="img-responsive">
 				</div>
-			</div>
+				<div class="col-xl-4">
+					
+				</div>
+			</div> -->
 		</div>
 	</section>
 	<section class="smart-home d-none d-xl-block">

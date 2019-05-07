@@ -7,6 +7,14 @@ $(function () {
 	});
 
 	//всплывание по наведению
+
+	function windowSize() {
+		if ($(window).width() <= '767') {
+			$('.portfolio-card-link').show();
+		}
+	}
+	$(window).on('load resize', windowSize);
+
 	$('.portfolio-card-link').hide();
 
 	$('.portfolio-card').hover(function () {
@@ -15,6 +23,7 @@ $(function () {
 		$(this).find('.portfolio-card-link').slideUp(250);
 	});
 
+	//Карусель в портфолио
 	$('.portfolio-carousel').owlCarousel({
 		loop: true,
 		margin: 10,
@@ -67,13 +76,13 @@ $(function () {
 	$("#lounge").click(function () {
 		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-1.jpg)');
 	});
-	$("#children").click(function () { 
+	$("#children").click(function () {
 		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-2.jpg)');
 	});
-	$("#kitchen").click(function () { 
+	$("#kitchen").click(function () {
 		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-3.jpg)');
 	});
-	$("#bathroom").click(function () { 
+	$("#bathroom").click(function () {
 		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-4.jpg)');
 	});
 
@@ -81,15 +90,15 @@ $(function () {
 	$("#smartHomeControl").hide();
 	$("#smartHomeSecurity").hide();
 
-	$(".smart-home__multimedia").click(function () { 
+	$(".smart-home__multimedia").click(function () {
 		$('.smart-home__card').hide();
 		$("#smartHomeMultimedia").fadeIn();
 	});
-	$(".smart-home__control").click(function () { 
+	$(".smart-home__control").click(function () {
 		$('.smart-home__card').hide();
 		$("#smartHomeControl").fadeIn();
 	});
-	$(".smart-home__security").click(function () { 
+	$(".smart-home__security").click(function () {
 		$('.smart-home__card').hide();
 		$('#smartHomeSecurity').fadeIn();
 	});
@@ -103,7 +112,7 @@ $(function () {
 	// 		$(this).next('.info__text').fadeOut();
 	// 	}
 	// );
-	$('.info__dot').click(function () { 
+	$('.info__dot').click(function () {
 		$(this).next('.info__text').fadeToggle();
 	});
 
