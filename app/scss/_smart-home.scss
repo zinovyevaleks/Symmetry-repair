@@ -3,10 +3,6 @@
     background-size: contain;
     overflow: auto;
 
-    // .container-fluid {
-    //     width: 1920px;
-    // }
-
     .section-header {
         margin-bottom: 0;
     }
@@ -27,17 +23,9 @@
     &__card {
         margin-top: 121px;
         margin-bottom: 121px;
-
-        // .smart-home__ipad-img {
-        //     background-image: url('../img/desktop/iPad_multimedia.png');
-        //     background-repeat: no-repeat;
-        //     background-size: cover;
-        //     height: 579px;
-        // }
     }
 
     &__list {
-        // padding-left: 0;
 
         &__item {
             list-style-image: url('../img/icons/list-marker.svg');
@@ -47,7 +35,6 @@
             font-weight: bold;
             font-size: 24px;
             padding-left: 38px;
-            // padding-left: 1vw;
         }
     }
 

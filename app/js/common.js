@@ -78,23 +78,23 @@ $(function () {
 	});
 
 	//Умный дом
-	// $("#smartHomeControl").hide();
-	// $("#smartHomeSecurity").hide();
+	$("#smartHomeControl").hide();
+	$("#smartHomeSecurity").hide();
 
 	$(".smart-home__multimedia").click(function () { 
-		$('.smart-home__ipad').hide();
+		$('.smart-home__card').hide();
 		$("#smartHomeMultimedia").fadeIn();
 	});
 	$(".smart-home__control").click(function () { 
-		$('.smart-home__ipad').hide();
+		$('.smart-home__card').hide();
 		$("#smartHomeControl").fadeIn();
 	});
 	$(".smart-home__security").click(function () { 
-		$('.smart-home__ipad').hide();
+		$('.smart-home__card').hide();
 		$('#smartHomeSecurity').fadeIn();
 	});
 
-	// $('.info__text').hide();
+	$('.info__text').hide();
 	// $('.info__dot').hover(function () {
 	// 		// over
 	// 		$(this).next('.info__text').fadeIn();
@@ -103,6 +103,9 @@ $(function () {
 	// 		$(this).next('.info__text').fadeOut();
 	// 	}
 	// );
+	$('.info__dot').click(function () { 
+		$(this).next('.info__text').fadeToggle();
+	});
 
 	//Плавная прокрутка до якоря
 	$(".anchor_link").click(function () {
