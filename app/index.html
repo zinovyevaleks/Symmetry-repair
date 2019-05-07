@@ -356,8 +356,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="examples-slide">
-				</div>
+				<div class="examples-slide"></div>
 			</div>
 			<div class="row">
 				<div class="examples-control d-flex">
@@ -415,7 +414,8 @@
 							<div class="form-group form-group-inputs d-sm-flex">
 								<div class="d-flex flex-wrap">
 									<img class="form-input-icon" src="./img/icons/Room_icon.svg" alt="">
-									<input class="form-input d-flex justify-content-center" type="number" name="количество комнат" required>
+									<input class="form-input d-flex justify-content-center" type="number"
+										name="количество комнат" required>
 									<label class="form-input-label">Количество комнат</label>
 								</div>
 								<div class="d-flex flex-wrap">
@@ -424,9 +424,110 @@
 									<label class="form-input-label">Площадь квартиры</label>
 								</div>
 							</div>
-							<input class="form-input input-phone" type="text" name="Телефон" placeholder="Ваш номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
+							<input class="form-input input-phone" type="text" name="Телефон"
+								placeholder="Ваш номер телефона"
+								pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
 							<button class="button button-red calc-button" type="submit">Получить расчёт</button>
 						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="smart-home d-none d-xl-block">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 offset-md-1">
+					<div class="smart-home__multimedia control-button button-red">Мультимедия</div>
+				</div>
+				<div class="col-md-2">
+					<div class="smart-home__control control-button button-red">Управление</div>
+				</div>
+				<div class="col-md-2">
+					<div class="smart-home__security control-button button-red">Безопасность</div>
+				</div>
+				<div class="col-md-4">
+					<div class="section-header">
+						<h2 class="h2 text-center">Ваш умный дом</h2>
+						<div class="decor-line"></div>
+					</div>
+				</div>
+			</div>
+			<div class="smart-home__card" id=smartHomeMultimedia>
+				<div class="row">
+					<div class="col-md-6 offset-md-1 d-flex justify-content-end">
+						<div class="smart-home__ipad">
+							<img src="./img/desktop/iPad_multimedia.png" alt="">
+							<div class="info__dot info__dot-1"></div>
+							<div class="info__text info__text-1">Автоматическое воспроизведение</div>
+							<div class="info__dot info__dot-2"></div>
+							<div class="info__text info__text-2">Управление аудиосистемой</div>
+							<div class="info__dot info__dot-3"></div>
+							<div class="info__text info__text-3">Управление медиа</div>
+						</div>
+					</div>
+					<div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center">
+						<ul class="smart-home__list">
+							<li class="smart-home__list__item">Управление медиаустройствами </li>
+							<li class="smart-home__list__item">Атоматическое воспроизведение</li>
+							<li class="smart-home__list__item">Управление настройками</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="smart-home__card" id="smartHomeControl">
+				<div class="row">
+					<div class="col-md-6 offset-md-1 d-flex justify-content-end">
+						<div class="smart-home__ipad">
+							<img src="./img/desktop/iPad_control.png" alt="" class="">
+							<div class="info__dot info__dot-4"></div>
+							<div class="info__text info__text-4">Управление освещением</div>
+							<div class="info__dot info__dot-5"></div>
+							<div class="info__text info__text-5">Управление бытовой техникой</div>
+							<div class="info__dot info__dot-6"></div>
+							<div class="info__text info__text-6">Контроль розеток и выключателей</div>
+							<div class="info__dot info__dot-7"></div>
+							<div class="info__text info__text-7">Контроль счетчиков</div>
+							<div class="info__dot info__dot-8"></div>
+							<div class="info__text info__text-8">Управление теплым полом</div>
+						</div>
+					</div>
+					<div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center">
+						<ul class="smart-home__list">
+							<li class="smart-home__list__item">Управление источниками света</li>
+							<li class="smart-home__list__item">Управление розетками</li>
+							<li class="smart-home__list__item">Регулировка света</li>
+							<li class="smart-home__list__item">Управление температурой воздуха</li>
+							<li class="smart-home__list__item">Контроль приборов учета</li>
+							<li class="smart-home__list__item">Настройка сценариев работы</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="smart-home__card" id="smartHomeSecurity">
+				<div class="row">
+					<div class="col-md-6 offset-md-1 d-flex justify-content-end">
+						<div class="smart-home__ipad">
+							<img src="./img/desktop/iPad_security.png" alt="" class="">
+							<div class="info__dot info__dot-9"></div>
+							<div class="info__text info__text-9">Управление кемерами видеонаблюдения</div>
+							<div class="info__dot info__dot-10"></div>
+							<div class="info__text info__text-10">Управление внешним освещением</div>
+							<div class="info__dot info__dot-11"></div>
+							<div class="info__text info__text-11">Контроль замков дверей и окон</div>
+							<div class="info__dot info__dot-12"></div>
+							<div class="info__text info__text-12">Управление системами полива</div>
+						</div>
+					</div>
+					<div class="col-md-4 offset-md-1 d-flex flex-column justify-content-center">
+						<ul class="smart-home__list">
+							<li class="smart-home__list__item">Уведомления сигнализаций</li>
+							<li class="smart-home__list__item">Доступ к камерам наблюдения</li>
+							<li class="smart-home__list__item">Управление датчиками движения</li>
+							<li class="smart-home__list__item">Контроль замков</li>
+							<li class="smart-home__list__item">Управление внешним освещением</li>
+							<li class="smart-home__list__item">Управление системами полива</li>
+						</ul>
 					</div>
 				</div>
 			</div>

@@ -77,6 +77,33 @@ $(function () {
 		$(".examples-slide").css('background-image', 'url(../img/desktop/examples_slide-4.jpg)');
 	});
 
+	//Умный дом
+	// $("#smartHomeControl").hide();
+	// $("#smartHomeSecurity").hide();
+
+	$(".smart-home__multimedia").click(function () { 
+		$('.smart-home__ipad').hide();
+		$("#smartHomeMultimedia").fadeIn();
+	});
+	$(".smart-home__control").click(function () { 
+		$('.smart-home__ipad').hide();
+		$("#smartHomeControl").fadeIn();
+	});
+	$(".smart-home__security").click(function () { 
+		$('.smart-home__ipad').hide();
+		$('#smartHomeSecurity').fadeIn();
+	});
+
+	// $('.info__text').hide();
+	// $('.info__dot').hover(function () {
+	// 		// over
+	// 		$(this).next('.info__text').fadeIn();
+	// 	}, function () {
+	// 		// out
+	// 		$(this).next('.info__text').fadeOut();
+	// 	}
+	// );
+
 	//Плавная прокрутка до якоря
 	$(".anchor_link").click(function () {
 		var _href = $(this).attr("href");

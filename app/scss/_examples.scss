@@ -19,19 +19,7 @@
         margin-top: -65px;
         margin-left: 30px;
 
-        .control-button {
-            display: flex;
-            justify-content: center;
-            align-items: center;    
-            border: none;
-            width: 25%;
-            height: 65px;
-            color: $white;
-            font-size: 18px;
-            font-weight: bold;
-            transition: all .15s ease-in-out;
-            cursor: pointer;
-        }
+        
     }
 
     &_vids {
