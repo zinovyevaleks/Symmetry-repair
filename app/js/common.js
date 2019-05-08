@@ -140,7 +140,6 @@ $(function () {
 			alert("Спасибо, ваша заявка принята!");
 			setTimeout(function () {
 				// Done Functions
-
 				th.trigger("reset");
 			}, 1000);
 		});

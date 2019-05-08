@@ -1,9 +1,55 @@
 .objects-map {
-    background-image: url('../img/desktop/Map_block-bg.jpg');
+    position: relative;
+    z-index: 1;
+    // background-image: url('../img/desktop/Map_block-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    // padding-top: 216px;
-    padding-bottom: 514px;
+    // padding-bottom: 199px;
+    height: 587px;
+    margin-top: -47px;
 
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+
+        .row {
+            margin: 0 0 0 -15px;
+        }
+    }
+
+    .objects-block {
+        background-color: $accent;
+        padding: 38px 0;
+        position: absolute;
+        top: 47px;
+    }
+    .p {
+        max-width: 87.04918032786885%;
+        text-align: center;
+        font-size: 21px; 
+        margin-left: auto;
+        margin-right: auto;
+
+        &:nth-child(2) {
+            text-transform: uppercase;
+            color: $red;
+        }
+
+        &:nth-child(1) {
+           
+            margin: 0 auto 24px;
+        }
+    }
+    .decor-line {
+		height: 6px;
+		background-color: $red;
+		width: 76.40983606557377%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 26px;
+    }
     
+    iframe {
+        border: none;
+    }
 }

@@ -4,6 +4,8 @@
     background-position-y: right;
     background-size: cover;
     color: #F7F7F7;
+    position: relative;
+    z-index: 3;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
     @import "./navbar";
 
@@ -13,7 +15,7 @@
 
     &_list {
         padding-left: 20px;
-        margin-bottom: 90px;
+        margin-bottom: 148px;
         list-style-image: url('../img/icons/list-marker.svg');
         list-style-position: outside;
     }
