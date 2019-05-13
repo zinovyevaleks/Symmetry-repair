@@ -1,36 +1,25 @@
 .footer {
-    background-image: url('../img/desktop/footer-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    &-contacts {
-        background-color: $white;
-        margin-top: 229px;
-        padding-top: 43px;
-        // padding-left: 22.67515923566879%;
-        padding-left: 9.5vw;
-        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.21);
+    background-color: $accent;
+    padding-top: 113px;
+    padding-bottom: 113px;
 
-        .h3 {
-            margin-bottom: 22px;
-            line-height: 1.2;
-        }
+    .p {
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 31px;
+        color: #F7F7F7;
+        margin-left: 32px;
+        margin-bottom: 0;
+    }
 
-        .p,
-        a {
-            margin-bottom: 12px;
-            line-height: 1.2;
-        }
+    &-links {
+        margin-top: 40px;
+    }
 
-        a {
-            font-size: 24px;
-            color: $text;
-        }
-
-        .button {
-            max-width: 18.125em;
-            margin-top: 55px;
-            margin-bottom: 37px;
-        }
+    &-link {
+        font-weight: bold;
+        // font-size: 21px;
+        line-height: 27px;
+        color: #F7F7F7;
     }
 }

@@ -769,27 +769,27 @@
 			<!-- Hidden Required Fields -->
 			<input type="hidden" name="project_name" value="Simmetria-pro">
 			<input type="hidden" name="admin_email" value="simmetria54@yandex.ru">
-			<input type="hidden" name="form_subject" value="Калькулятор">
+			<input type="hidden" name="form_subject" value="Замер">
 			<!-- END Hidden Required Fields -->
 
 			<div class="container-fluid">
 				<div class="row d-flex">
-					<div class="col-md-3 col-xs-6 col-12 offset-md-1">
+					<div class="col-xl-3 col-12 offset-xl-1">
 						<div class="section-header">
 							<h2 class="h2 text-center">БЕСПЛАТНЫЙ ЗАМЕР</h2>
 							<div class="decor-line"></div>
 						</div>
 					</div>
-					<div class="col-md-2">
+					<div class="col-xl-2 col-md-6">
 						<input class="form-input input-phone" type="text" name="Телефон"
 							placeholder="Ваш номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
 							required>
 					</div>
-					<div class="col-md-2">
+					<div class="col-xl-2 col-md-6">
 						<button class="button button-red" type="submit" id="measurementButton">Записаться на
 							замер</button>
 					</div>
-					<div class="col-md-3 d-flex align-items-center">
+					<div class="col-xl-3 col-md-6 d-flex align-items-center">
 						<div class="form-group form-check">
 							<label class="form-check-label d-flex align-items-center">
 								<input type="checkbox" class="form-check-input" name="Дизайн проект">
@@ -806,7 +806,7 @@
 	<section class="feedback">
 		<div class="container-fluid">
 			<div class="row no-gutters">
-				<div class="col-md-5">
+				<div class="col-md-5 grey-bg">
 					<div class="section-header">
 						<h2 class="h2">Закажите экскурсию по выполненным объектам</h2>
 						<p class="p2">Посетив ремонтируемые квартиры, вы лично убедитесь в высоком качестве наших работ
@@ -830,27 +830,45 @@
 						</div>
 					</form>
 				</div>
-
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="container-fluid">
+			<div class="row no-gutters">
+				<div class="col-xl-5 col-md-6 col-xs-7 col-12">
+					<div class="contacts-content d-flex flex-column">
+						<h3 class="h3">Контакты</h3>
+						<p class="p">г. Новосибирск</p>
+						<p class="p">ул. Бориса Богаткова 99, офис 210</p>
+						<a href="tel+73832075537">+7 (383) 207-55-37</a>
+						<a href="mailto:simmetria54@yandex.ru">simmetria54@yandex.ru</a>
+						<button class="button button-red" id="footerModal" data-toggle="modal"
+							data-target="#formModal">Оставить
+							заявку</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	<footer class="footer">
-		<div class="row no-gutters">
-			<div class="col-xl-5 col-md-6 col-xs-7 col-12">
-				<div class="footer-contacts d-flex flex-column">
-					<h3 class="h3">Контакты</h3>
-					<p class="p">г. Новосибирск</p>
-					<p class="p">ул. Бориса Богаткова 99, офис 210</p>
-					<a href="tel+73832075537">+7 (383) 207-55-37</a>
-					<a href="mailto:simmetria54@yandex.ru">simmetria54@yandex.ru</a>
-					<button class="button button-red" id="footerModal" data-toggle="modal"
-						data-target="#formModal">Оставить
-						заявку</button>
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 d-flex flex-column flex-lg-row justify-content-around align-items-center">
+					<img class="img-responsive" src="./img/logo/Logo_TLS.svg" alt="">
+					<p class="p">Разработка, реклама и продвижение сайта</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="footer-links d-flex justify-content-around">
+						<a class="footer-link" href="">Политика конфиденциальности</a>
+						<a class="footer-link" href="">Согласие на обработку персональных данных</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
-
 
 
 	<!-- Modal -->
