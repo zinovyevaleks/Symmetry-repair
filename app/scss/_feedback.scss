@@ -1,15 +1,19 @@
 .feedback {
+    background-image: url('../img/desktop/feedback-photo.jpg');
+    background-repeat: no-repeat;
+    background-size:58.2% 100% ;
+    background-position: right center;
     .section-header {
-        padding-top: 42px;
+        padding-top: 36px;
         padding-left: 20.38216560509554%;
         padding-right: 8.808917197452229%;
-        padding-bottom: 54px;
+        padding-bottom: 47px;
         margin-bottom: 0;
 
         .h2 {
             font-size: 28px;
             text-transform: uppercase;
-            margin-bottom: 35px;
+            margin-bottom: 12px;
         }
     }
 
@@ -29,13 +33,17 @@
 
         .button {
             width: 100%;
-            margin-top: 70px;
-            margin-bottom: 63px;
+            margin-top: 42px;
+            margin-bottom: 27px;
+        }
+
+        .form-check-label {
+            font-size: 12px;
+            margin-bottom: 49px;
         }
     }
 
     .decor-column {
-        background-image: url('../img/desktop/feedback-photo.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }

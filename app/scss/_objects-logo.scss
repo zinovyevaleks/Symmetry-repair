@@ -1,4 +1,6 @@
 .objects-logo {
+    position: relative;
+
     &-card {
         margin-top: 18px;
         margin-bottom: 87px;
@@ -15,8 +17,14 @@
         }
     }
 
-
-
+    &-carousel {
+        margin-top: 13px;
+    }
+    .owl-stage-outer {
+        width: 88.03174603174603%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .owl-stage {
         display: flex;
         align-items: center;
@@ -24,19 +32,26 @@
 
     .logo-carousel-img {
         max-width: 140px;
-        // max-height: 86px;
+        max-height: 125px;
     }
 
     .owl-theme .owl-nav {
-        margin-top: 50px;
+        // margin-top: 50px;
         text-align: center;
         -webkit-tap-highlight-color: transparent;
+        position: absolute;
+        top: -27px;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
+
 
     .owl-prev>img,
     .owl-next>img {
-        width: 30px;
-        height: 40px;
+        width: 130px;
+        height: 150px;
     }
 
     .owl-theme .owl-nav [class*=owl-]:hover {

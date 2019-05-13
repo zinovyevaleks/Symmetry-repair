@@ -46,8 +46,9 @@ $(function () {
 
 	$('.objects-logo-carousel').owlCarousel({
 		loop: true,
-		margin: 50,
-		stagePadding: 20,
+		margin: 10,
+		stagePadding: 90,
+		// center: true,
 		autoplay: true,
 		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
@@ -55,12 +56,16 @@ $(function () {
 		dots: false,
 		responsive: {
 			0: {
-				items: 2
+				items: 1
+				
 			},
 			600: {
+				items: 2
+			},
+			900: {
 				items: 3
 			},
-			1000: {
+			1200: {
 				items: 4
 			}
 		},

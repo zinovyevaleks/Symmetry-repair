@@ -139,6 +139,31 @@ input:hover,
 	cursor: pointer;
 }
 
+.form-check-label {
+	padding-left: 3em;
+	margin-bottom: 27px;
+	font-size: 1.5rem;
+	margin-right: 44px;
+}
+
+.form-check-input {
+	position: absolute;
+	visibility: hidden;
+}
+
+.form-check-box {
+	position: absolute;
+	margin-left: -3em;
+	width: 2rem;
+	height: 2rem;
+	background-image: url('../img/icons/checkbox.svg');
+}
+
+//checked checkbox
+.form-check-input:checked+.form-check-box {
+	background-image: url('../img/icons/checkbox-checked.svg');
+}
+
 @import "_header.scss";
 @import "_objects-map";
 @import "_objects-logo";
@@ -154,4 +179,5 @@ input:hover,
 @import "_modal";
 @import "_calc";
 @import "_smart-home";
+@import "_free-measurement";
 @import "media"; // Always at the end
