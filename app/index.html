@@ -818,12 +818,12 @@
 						<input type="hidden" name="form_subject" value="Экскурсия">
 
 						<input class="form-control" type="text" name="Name" placeholder="Ваше имя..." required>
-						<input class="form-control" type="text" name="Phone" placeholder="Ваш телефон..." required>
+						<input class="form-control input-phone" type="text" name="Phone" placeholder="Ваш телефон..." pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
 						<button class="button button-red" type="submit" id="feedbackFormButton">Заказать
 							экскурсию</button>
 						<div class="form-group form-check">
 							<label class="form-check-label d-flex align-items-center">
-								<input type="checkbox" class="form-check-input" name="Дизайн проект">
+								<input type="checkbox" class="form-check-input" name="Дизайн проект" required>
 								<span class="form-check-box"></span>
 								Согласен на обработку и хранение персональных данных
 							</label>
@@ -854,14 +854,14 @@
 	<footer class="footer">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
-				<div class="col-xl-6 d-flex flex-column flex-lg-row justify-content-around align-items-center">
+				<div class="col-xl-6 d-flex flex-column flex-lg-row justify-content-around align-items-center text-center">
 					<img class="img-responsive" src="./img/logo/Logo_TLS.svg" alt="">
 					<p class="p">Разработка, реклама и продвижение сайта</p>
 				</div>
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-lg-6">
-					<div class="footer-links d-flex justify-content-around">
+					<div class="footer-links d-flex flex-column flex-lg-row justify-content-around align-items-center">
 						<a class="footer-link" href="">Политика конфиденциальности</a>
 						<a class="footer-link" href="">Согласие на обработку персональных данных</a>
 					</div>
@@ -889,7 +889,7 @@
 						<input type="hidden" name="form_subject" value="Форма из модалки">
 
 						<input class="form-control" type="text" name="Name" placeholder="Ваше имя..." required>
-						<input class="form-control" type="text" name="Phone" placeholder="Ваш телефон..." required>
+						<input class="form-control input-phone" type="text" name="Phone" placeholder="Ваш телефон..." pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
 						<button class="button button-red" type="submit">Получить обратную связь</button>
 					</form>
 				</div>
