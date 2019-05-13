@@ -3,12 +3,16 @@
     padding-top: 113px;
     padding-bottom: 113px;
 
+    a:hover {
+        color: #F7F7F7;
+    }
+
     .p {
         font-weight: bold;
         font-size: 21px;
         line-height: 31px;
         color: #F7F7F7;
-        // margin-left: 32px;
+        margin-left: 32px;
         margin-bottom: 0;
     }
 
@@ -21,5 +25,6 @@
         // font-size: 21px;
         line-height: 27px;
         color: #F7F7F7;
+
     }
 }
