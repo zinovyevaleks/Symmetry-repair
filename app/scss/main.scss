@@ -148,7 +148,8 @@ input:hover,
 
 .form-check-input {
 	position: absolute;
-	visibility: hidden;
+	// visibility: hidden;
+	z-index: -1;
 }
 
 .form-check-box {

@@ -136,7 +136,8 @@ $(function () {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "https://tls.media/mail.php",
+			// url: "mail.php",
 			data: th.serialize()
 		}).done(function () {
 			dataLayer.push({
