@@ -41,9 +41,6 @@
 
 // ≥992px
 @include media-breakpoint-down(md) {
-    .examples {
-        
-    }
 
     .section-header .h2 {
         font-size: 1.2rem;
@@ -77,6 +74,10 @@
                 }
             }
         }
+    }
+
+    .objects-map {
+        height: 400px;
     }
 
     .objects-logo {
@@ -135,6 +136,15 @@
 
     .objects-map {
         height: 390px;
+        margin-top: 0;
+
+        .p {
+            font-size: 1rem;
+        }
+
+        .objects-block {
+            padding: 10px 0;
+        }
     }
     // .cost .slide {
     //     margin-top: 67px;
