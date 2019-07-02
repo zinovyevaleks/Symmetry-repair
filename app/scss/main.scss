@@ -165,6 +165,8 @@ input:hover,
 	background-image: url('../img/icons/checkbox-checked.svg');
 }
 
+
+@import "_navbar";
 @import "_header.scss";
 @import "_objects-map";
 @import "_objects-logo";

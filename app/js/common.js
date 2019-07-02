@@ -57,7 +57,7 @@ $(function () {
 		responsive: {
 			0: {
 				items: 1
-				
+
 			},
 			600: {
 				items: 2
@@ -154,4 +154,15 @@ $(function () {
 	//Маска ввода телефона
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
+
+	//Навигация
+	$('.navbar-fixed').hide();
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 900) {
+		  $('.navbar-fixed').fadeIn();
+		} else if ($(this).scrollTop() <= 900) {
+		  $('.navbar-fixed').fadeOut();
+		}
+	  })
 });
