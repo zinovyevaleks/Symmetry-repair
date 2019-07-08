@@ -42,6 +42,15 @@
 // ≥992px
 @include media-breakpoint-down(md) {
 
+    .navbar-fixed {
+        padding: 0.5rem;
+    
+        .navbar-brand {
+            width: 50%;
+        }
+    }
+    
+
     .section-header .h2 {
         font-size: 1.2rem;
     }
