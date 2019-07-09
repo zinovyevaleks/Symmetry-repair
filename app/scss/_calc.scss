@@ -16,7 +16,7 @@
         padding-right: 36px;
         box-shadow: -6px -2px 8px rgba(0, 0, 0, 0.21);
         overflow: auto;
-        width: 625px;
+        width: 655px;
         margin-left: auto;
 
         .h2 {
@@ -33,7 +33,7 @@
             width: 43%;
             padding-left: 3em;
             margin-bottom: 27px;
-            font-size: 1.5rem;
+            font-size: 1rem;
             margin-right: 44px;
         }
 
@@ -53,10 +53,11 @@
         //checked checkbox
         .form-check-input:checked+.form-check-box {
             background-image: url('../img/icons/checkbox-checked.svg');
+            background-repeat: no-repeat;
         }
 
         .form-group-inputs {
-            margin-top: 90px;
+            margin-top: 30px;
         }
 
         .form-input-icon {
